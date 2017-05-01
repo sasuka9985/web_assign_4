@@ -1,0 +1,127 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.icon{
+	margin-bottom: 10px;
+}
+ul{
+	color: rgb(96,190,174);
+}
+body{
+	font-family: Microsoft JhengHei;
+}
+.title{
+	color: rgb(96,190,174);
+	font-size: 1.8rem;
+}
+time{
+	color: #AAA;
+}
+.option > h3{
+	font-size: 2rem;
+}
+.option > p{
+	font-size: 1rem;
+}
+
+
+
+
+body{
+	position: relative;
+	max-width: 350px;
+	margin: 0 auto;	
+	margin-top: 10px;
+	}
+
+#nav-info{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	}
+
+.icon > img{
+	max-width: 60px;
+	margin: 10px 0 10px 0; 
+	justify-content:center;
+	}
+
+ul{
+	display: flex;
+	flex: auto;
+	flex-direction: row;
+	justify-content: center;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 1.4rem;
+	}
+
+li{
+	display: flex;
+	margin: 10px 5px 10px 5px;
+	}
+
+aside{
+	display: none;
+	}
+
+.option > p{
+	display: none;
+	}
+
+.pic{
+	display: -webkit-flex;
+	background-image: url("../img/discuss01.jpg");
+	background-size: cover;
+	height: 233px;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	}
+
+.title-box{
+	width: 100%
+	font-size: 1rem;
+	line-height: 1rem;
+	text-align: left;
+	align-self: flex-end;
+	}
+
+#titleA{
+	width: 100%;
+	display: inline-block;
+	padding: 10px;
+	background-color: #ffffff;
+	}
+
+#titleB{
+	width: 100%;
+	display: inline-block;
+	padding: 10px;
+	background-color: #000000;
+	color: #ffffff;
+	}
+
+#archives{
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row wrap;
+	}
+
+.arti-with-pic{
+	display: inline-block;
+	margin: 20px 0px 20px 0px;
+	}
+
+.img > img{
+	width: 350px;
+	}
+
+#nd-nav{
+	display: none;
+	}
+
